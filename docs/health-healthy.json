@@ -1,9 +1,9 @@
 {
   "status": "Healthy",
-  "totalDuration": "00:00:00.1500000",
-  "traceId": "00-exemplo",
+  "totalDuration": "00:00:00.0099051",
+  "traceId": "0HNONFFMHF6RV:00000002",
   "checks": [
-    { "name": "self", "status": "Healthy", "duration": "00:00:00.0010000", "description": null, "exception": null },
-    { "name": "database", "status": "Healthy", "duration": "00:00:00.1400000", "description": null, "exception": null }
+    { "name": "self", "status": "Healthy", "duration": "00:00:00.0000047", "description": null, "exception": null },
+    { "name": "database", "status": "Healthy", "duration": "00:00:00.0096092", "description": null, "exception": null }
   ]
 }
