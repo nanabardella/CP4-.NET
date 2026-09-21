@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kova.Application", "Kova.Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kova.Infrastructure", "Kova.Infrastructure\Kova.Infrastructure.csproj", "{083A82B0-B2B0-4EB7-9946-B6804B418A5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kova.Domain.Tests", "Kova.Domain.Tests\Kova.Domain.Tests.csproj", "{B1B9A6D6-1F6B-4C79-9BE2-18B2CFB07A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kova.Application.Tests", "Kova.Application.Tests\Kova.Application.Tests.csproj", "{C2C8F7A5-1D5A-4D51-8A25-7F0C26EF1D2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{083A82B0-B2B0-4EB7-9946-B6804B418A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{083A82B0-B2B0-4EB7-9946-B6804B418A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{083A82B0-B2B0-4EB7-9946-B6804B418A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B9A6D6-1F6B-4C79-9BE2-18B2CFB07A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B9A6D6-1F6B-4C79-9BE2-18B2CFB07A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B9A6D6-1F6B-4C79-9BE2-18B2CFB07A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B9A6D6-1F6B-4C79-9BE2-18B2CFB07A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C8F7A5-1D5A-4D51-8A25-7F0C26EF1D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C8F7A5-1D5A-4D51-8A25-7F0C26EF1D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C8F7A5-1D5A-4D51-8A25-7F0C26EF1D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C8F7A5-1D5A-4D51-8A25-7F0C26EF1D2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

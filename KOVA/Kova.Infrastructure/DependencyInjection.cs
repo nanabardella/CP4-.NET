@@ -33,6 +33,7 @@ public static class DependencyInjection
         services.AddScoped<IPedidoRepository, PedidoRepository>();
 
         services.AddScoped<IPagamentoRepository, PagamentoRepository>();
+        services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
  
         return services;
 

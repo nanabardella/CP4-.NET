@@ -1,0 +1,6 @@
+Command: dotnet test KOVA\Kova.sln --no-build --no-restore --verbosity minimal
+
+Test summary: total: 7; failed: 0; succeeded: 7; skipped: 0
+Projects:
+- Kova.Domain.Tests: passed
+- Kova.Application.Tests: passed

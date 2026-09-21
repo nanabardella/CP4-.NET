@@ -1,5 +1,6 @@
 ﻿using Kova.Domain.Commons;
 using Kova.Domain.Enums;
+using Kova.Domain.Exceptions;
 
 namespace Kova.Domain.Entities;
 
@@ -22,7 +23,7 @@ public class Pedido : BaseEntity
     public Pedido(decimal valorTotal, StatusPedido status, Guid clienteId, Guid pagamentoId)
     {
         if (valorTotal < 1)
-            throw new Exception("Valor Total inválido");
+            throw new DomainException("Valor total do pedido inválido.");
 
         ValorTotal = valorTotal;
         Status = status;

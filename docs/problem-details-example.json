@@ -1,0 +1,7 @@
+{
+  "type": "https://httpstatuses.com/404",
+  "title": "Recurso não encontrado",
+  "status": 404,
+  "detail": "Categoria com o identificador informado não foi encontrada.",
+  "instance": "/api/categorias/00000000-0000-0000-0000-000000000000"
+}

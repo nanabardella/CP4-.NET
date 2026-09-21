@@ -1,4 +1,5 @@
 ﻿using Kova.Domain.Commons;
+using Kova.Domain.Exceptions;
 
 namespace Kova.Domain.Entities;
 
@@ -13,12 +14,12 @@ public class Categoria : BaseEntity
     public Categoria(string nome, string descricao)
     {
         if (nome == null || nome.Length < 2)
-            throw new Exception("Nome inválido");
+            throw new DomainException("Nome da categoria inválido.");
 
         Nome = nome;
 
         if (descricao == null || descricao.Length < 10)
-            throw new Exception("Descrição inválida");
+            throw new DomainException("Descrição da categoria inválida.");
 
         Descricao = descricao;
     }
